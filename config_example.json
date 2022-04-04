@@ -1,23 +1,18 @@
 {
-    "image_path": "image.jpg",
-    "image_start_coords": [741, 610],
-    "legacy_transparency": true,
-    "thread_delay": 2,
+    "image_path": "image.png",
+    "image_start_coords": [448, 1070],
+    "thread_delay": 20,
     "unverified_place_frequency": false,
     "compact_logging": true,
-    "using_tor": false,
+    "using_tor": true,
     "tor_port": 1881,
     "tor_control_port": 9051,
     "tor_password": "Passwort",
     "tor_delay": 5,
     "use_builtin_tor": true,
     "workers": {
-        "worker1username": {
-            "password": "password",
-            "start_coords": [0, 0]
-        },
-        "worker2username": {
-            "password": "password",
+        "account-username-1": {
+            "password": "password-here",
             "start_coords": [0, 0]
         }
     }
